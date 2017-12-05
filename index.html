@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+  <!--
+    Name: Ziyad M. Al-Ghamdi
+    Date: 03/Dec/2017
+    I Acknowledge that I've used som source code from: https://www.w3schools.com/
+ -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Ziyad M. AlGhamdi</title>
+  </head>
+
+  <body>
+    <!-- Here will be my name (The title of this portfolio) -->
+    <header>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <img src="img/ziyad_logo.png" alt="My Personal Logo">
+            <h1 class="portfolio-title">Ziyad AlGhamdi</h1>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Here will be a nav buttons that will take me between my pages -->
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-2"></div>
+        <nav class="col-md-8 navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav nav-justified">
+              <li><a href="#aboutMeSection">About Me</a></li>
+              <li><a href="#educationSection">Education</a></li>
+              <li><a href="#experienceSection">Experience</a></li>
+              <li><a href="#contactMeSection">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <!-- This is just a break line between the content of my profile and the nav buttons and my name -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+          <hr class="break-line">
+        </div>
+      </div>
+    </div>
+
+    <!-- Here will major picture events (This will keep updated) -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="carousel-picture" src="img/kfupm.jpeg" alt="KFUPM Clock Tower">
+                <div class="carousel-caption">
+                  <h3>KFUPM</h3>
+                  <p>Where the whole story began!</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img class="carousel-picture" src="img/kaust.jpeg" alt="KUAST Beacon">
+                <div class="carousel-caption">
+                  <h3>KAUST</h3>
+                  <p>Where I start dreaming!</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img class="carousel-picture" src="img/aramco.jpeg" alt="Saudi Aramco Ithra Building">
+                <div class="carousel-caption">
+                  <h3>Saudi Aramco</h3>
+                  <p>Where I start achieving</p>
+                </div>
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <!-- Here is the start of my resume -->
+    <main>
+      <div class="container">
+
+        <!-- About Me Subtitle -->
+        <div class="row" id="aboutMeSection">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+            <h2 class="sub-title">About Me</h2>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 text-left">
+            <p class="paragraph">I am a fresh Master’s degree graduate in Computer Science from King Abdullah University of Science and Technology (KAUST). I obtained my Bachelor’s
+              degree in Software Engineering with honors from King Fahd University of Petroleum and Minerals (KFUPM).
+            </p>
+            <p class="paragraph">During my undergrad, in our senior project, we developed mobile applications on three platforms, IOS, Andriod and Windows Phone, using three
+              different programming languages that help in managing large events and interacting with the audience. KFUPM awarded our project as the best
+              Software Engineering Project for the Academic Year 2014-2015.
+            </p>
+            <p class="paragraph">During my Master’s, we have prepared a survey on graph node ranking approximation methods and conducted a comprehensive experimental study
+              on realistic large graphs with up to 126M edges that are orders of magnitudes larger than what are presented in the literature. Moreover,
+              we have managed to scale the best-known ranking algorithm to 96,000 CPU cores on SHAHEEN II, a supercomputer at KAUST, to compute the exact
+              nodes ranking on the large graphs.</p>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+
+        <br><br>
+
+        <!-- Education Subtitle -->
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+            <h2 class="sub-title" id="educationSection">Education</h2>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="row children-equal-height">
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/kfupm_logo.png" alt="KFUPM Logo">
+                </picture>
+                <h4 class="achievments-title">King Fahd University of Petroleum and Minerals</h4>
+                <p class="paragraph">Graduation Date: August, 2015</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/kaust_logo.png" alt="KAUST Logo">
+                </picture>
+                <h4 class="achievments-title">King Abdullah University of Science and Technology</h4>
+                <p class="paragraph">Graduation Date: December, 2016</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/udacity_logo.svg" alt="Udacity Logo">
+                </picture>
+                <h4 class="achievments-title">Udacity</h4>
+                <p class="paragraph">Graduation Date: February, 2017</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <br><br>
+
+        <!-- Experience Subtitle -->
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 text-center">
+            <h2 class="sub-title" id="experienceSection">Experience</h2>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="row children-equal-height">
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/aramco_logo.png" alt="Saudi Aramco Logo">
+                </picture>
+                <h4 class="achievments-title">Saudi Aramco</h4>
+                <h3 class="achievments-title">IT Systems Analyst</h3>
+                <p class="paragraph">July,2017 - Present</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/kaust_logo.png" alt="KAUST Logo">
+                </picture>
+                <h4 class="achievments-title">King Abdullah University of Science and Technology</h4>
+                <h3 class="achievments-title">Residential Assistant</h3>
+                <p class="paragraph">July,2016 - October,2016</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/aramco_logo.png" alt="Saudi Aramco Logo">
+                </picture>
+                <h4 class="achievments-title">Saudi Aramco</h4>
+                <h3 class="achievments-title">Internship Program</h3>
+                <p class="paragraph">June,2014 - August,2014</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="row children-equal-height">
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/kfupm_logo.png" alt="KFUPM Logo">
+                </picture>
+                <h4 class="achievments-title">King Fahd University of Petroleum and Minerals</h4>
+                <h3 class="achievments-title">Teacher Assistant</h3>
+                <p class="paragraph">September,2013 - May,2014</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/panda_logo.png" alt="Panda Logo">
+                </picture>
+                <h4 class="achievments-title">Panda</h4>
+                <h3 class="achievments-title">Cashier</h3>
+                <p class="paragraph">June,2011 - Sept,2011</p>
+              </div>
+              <div class="col-md-4 text-center achievments-card">
+                <picture>
+                  <img class="achievments-pic" src="img/said_logo.jpg" alt="Dhahran Palace Hotel Logo">
+                </picture>
+                <h4 class="achievments-title">Dhahran Palace Hotel</h4>
+                <h3 class="achievments-title">Hotel Receptionist</h3>
+                <p class="paragraph">June,2010 - September,2010</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- This is just a break line between the content of my profile and the footer -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="break-line">
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row social-meida" id="contactMeSection">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center">
+          <a href="https://www.linkedin.com/in/ziyad-alghamdi-0180b061/" class="fa fa-linkedin"></a>
+          <a href="https://twitter.com/ziyadmobarak" class="fa fa-twitter"></a>
+          <a href="https://www.facebook.com/ZiyadMobarak" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/ziyadmobarak/" class="fa fa-instagram"></a>
+          <a href="https://www.snapchat.com/add/ziyadmobarak" class="fa fa-snapchat-ghost"></a>
+          <a href="https://ziyadmobarak.tumblr.com/" class="fa fa-tumblr"></a>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </footer>
+
+    <br><br>
+
+  </body>
+
+</html>
